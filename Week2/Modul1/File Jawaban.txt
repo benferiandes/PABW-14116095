@@ -1,0 +1,9 @@
+1.Pada file Percobaan.html ditemukan adanya error pada bagian foto, hal ini dikarenakan karena tidak adanya source yang sesuai dengan photo yang dimaksudkan pada text html.
+Untuk bagian list tidak dapat ditampilkan karena format penulisan tag salah.
+Penempatan tulisan table tidak tepat diatas tabel dikarenakan tidak ada penulisan tag untuk enter
+2.Fungsi meta refresh yang dipakai menginisiasi refresh page dalam 5 detik dan redirect ke google
+3. - thead = menyatukan grup header pada table
+   - tbody = menyatukan grup body pada tabel
+   - tr = mendefenisikan baris tabel
+   - th = mendefinisikan tabel heading
+   - td = mendefinisikan data tabel
