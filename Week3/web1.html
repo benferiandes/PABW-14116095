@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+  height :100%;
+  margin :20%;
+
+  background-image: url("image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+<h2 style="color:white;">Register</h2>
+
+<form action="" style="color:white;">
+Name	:
+<input type="text" name="userid"><br><br>
+Gender	:
+<input type="radio" name="gender" value="male" checked> Male
+<input type="radio" name="gender" value="female"> Female<br><br>
+Address	:
+<input type="text" name="address"><br><br>
+Country	:  <input list="countrys" name="country">
+  <datalist id="countrys">
+    <option value="Indonesia">
+    <option value="Malay">
+    <option value="Singapore">
+    <option value="India">
+    <option value="">
+  </datalist><br><br>
+Email	:
+<input type="text" name="email"><br><br>
+Photo	: <input type="file" name="Browse"><br><br>
+<input type="submit">
+</form>
+</body>
+</html>
